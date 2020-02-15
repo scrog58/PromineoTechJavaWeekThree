@@ -1,10 +1,8 @@
 
-import java.util.*;
+public class PromineoTechJavaWeekThree {
 
-public class WeekThree {
-
-	public static void main(String[] args) {
-//		//Part 1 Integers
+public static void main(String[] args) {
+		//Part 1 Integers
 //		int[] ages = new int[9];
 //		ages[0] = 3;
 //		ages[1] = 9;
@@ -21,14 +19,16 @@ public class WeekThree {
 //		 
 //		//subtract the last number from the first number(Part 1)
 //		int problemA = last - first;
-//		System.out.println(problemA);
-		 
+//		//System.out.println(problemA);
+//		 
 //		//add new age to value
 //		ages[8] = 100;
+//		last = ages[ages.length-1];
 //
-		//subtract the last number from the first number(Part 2)
+//		//subtract the last number from the first number(Part 2)
 //		int problemB = last - first;
-//		//System.out.println(problemB);
+//		System.out.println(last);
+//		System.out.println(problemB);
 //		double getSum = 0;
 //		//get the average of the ages
 //		for(int i = 0; i < ages.length; i++) {
@@ -49,25 +49,25 @@ public class WeekThree {
 	
 		
 //		double  nameletterSum = 0;
-//		//average per character per name
+		//average per character per name
 //		for(int i = 0; i < names.length; i++) {
 //			nameletterSum += names[i].length();
 //		}
 //		Double letterAvg = nameletterSum / names.length;
 //		System.out.println(letterAvg);
-//
-//		//list names space
+
+		//list names space
 //		for(int i = 0; i < names.length; i++) {
 //		     String showNames = names[i] + " ";
 //		     System.out.print(showNames);
 //		 
 //		} 
-//
+		System.out.print("\n");
 		//first and last
 //		String firstNameInArray = names[names.length - names.length];
 //		String lastnameInArray = names[names.length - 1];
-//		
-//		//move array lenght into the nameLenghts array
+		
+		//move array lenght into the nameLenghts array
 //		int[] nameLenghts = new int[6];
 //		for(int i = 0; i < names.length; i++) {
 //			nameLenghts[i] = names[i].length();
@@ -78,19 +78,29 @@ public class WeekThree {
 //		for(int i = 0; i < nameLenghts.length; i++) {
 //			getSumOfLenghts += nameLenghts[i];
 //		}
-		//System.out.println(getSumOfLenghts);
-		
-		
-		//show name plus the amount of characters in the name
+//		System.out.println(getSumOfLenghts);
+//		
+//		//show name plus the amount of characters in the name
 //		for(int i = 0; i < names.length; i++) {
 //		    System.out.println(names[i]+": "+ names[i].length());
 //		}
 	
 //test the over 100 array method		
-//int[] numbers = {1, 5, 3};
+//int[] numbers = {1, 5, 3,100};
+//double[] array1 = {1,3,4,6,7,9};
+//double[] array2 = {1,4,5};
+////System.out.println(WeekThreeQNine(numbers));
+//
+//System.out.println(wordPrint("Hello", 3));		
+//System.out.println(fullName("Tom", "Sawyer"));
 //System.out.println(WeekThreeQNine(numbers));
-		
-		
+//System.out.println(wordPrint("Hello", 3));		
+//System.out.println(fullName("Tom", "Sawyer"));
+//System.out.println(WeekThreeQNine(numbers));
+//System.out.println(doubleGetAverage(array1));
+//System.out.println(doubleAverageWhichIsGreat(array1, array2));
+//System.out.println(willBuyDrink(true, 20));
+//payOffBillNever(25000, 560);
 }
 
 
@@ -179,7 +189,7 @@ public static boolean doubleAverageWhichIsGreat(double[] n1, double[]n2) {
 	 
 
 //method Q12
-public static boolean willBuyDriing(boolean isHotOutside, double moneyInPocket) {
+public static boolean willBuyDrink (boolean isHotOutside, double moneyInPocket) {
 	  return isHotOutside && (moneyInPocket > 10.50);
 
 	   
@@ -207,5 +217,6 @@ public static void payOffBillNever(double amountOwed, double repayment) {
 	         
 	}
 	
-	
+
+
 }
